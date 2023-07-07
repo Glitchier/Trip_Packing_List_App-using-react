@@ -40,7 +40,7 @@ code {
   flex-grow: 1;
   padding: 1rem;
   font-family: "Monoton";
-  font-size: 54px;
+  font-size: 48px;
 }
 
 .formDiv {
@@ -162,4 +162,13 @@ button {
   display: flex;
   justify-content: center;
   color: #03045e;
+}
+
+@media only screen and (max-width: 512px) {
+  .formDiv {
+    flex-direction: column;
+  }
+  .logoDiv {
+    font-size: 40px;
+  }
 }
